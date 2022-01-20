@@ -1,0 +1,85 @@
+.silder h3,
+.slider h5 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.kotak1 img,
+.kotak2 img,
+.kotak3 img,
+.kotak4 img,
+.kotak5 img {
+  border-radius: 10%;
+  align-content: center;
+  align-items: center;
+}
+
+.social-media {
+  height: 300px;
+}
+
+section {
+  padding: 20px 0;
+}
+.copyright {
+  height: 50px;
+}
+footer {
+  padding: 1px 0;
+}
+
+p#Judul {
+  font-size: 15px;
+}
+p#Tanggal,
+p#Isi,
+p.link {
+  font-size: 10px;
+}
+p#Judul-artikel {
+  font-size: 21px;
+}
+p#Tanggal-artikel {
+  font-size: 11px;
+}
+p#isi-artikel {
+  font-size: 15px;
+}
+
+p#isi-artikel-card-panel,
+p#link-artikel {
+  font-size: 14px;
+}
+
+#Artikel1.container {
+  
+  display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+}
+#news {
+  display: flex;
+  width: 300px;
+}
+
+#Judul-news {
+  font-size: 11px;
+}
+
+ul.card-panel {
+  height: fit-content;
+  width: fit-content;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+p#catatan-kaki {
+  font-size: 10px;
+}
+
+section#Artikel .card-panel {
+  height: 528.83px;
+}
+
+p.sejarah {
+  text-align: justify;
+}
