@@ -1,3 +1,9 @@
+body{
+  font-family: sans-serif;
+}
+p.sejarah{
+  text-align: justify;
+}
 .silder h3,
 .slider h5 {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
@@ -43,19 +49,15 @@ p#Tanggal-artikel {
 }
 p#isi-artikel {
   font-size: 15px;
+  font-family: sans-serif;
+  text-align: justify;
 }
 
 p#isi-artikel-card-panel,
 p#link-artikel {
-  font-size: 14px;
+  font-size: 13px;
 }
 
-#Artikel1.container {
-  
-  display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-}
 #news {
   display: flex;
   width: 300px;
@@ -64,7 +66,12 @@ p#link-artikel {
 #Judul-news {
   font-size: 11px;
 }
-
+ul#artikel-1.card-panel,
+ul#artikel-2.card-panel,
+ul#artikel-3.card-panel{
+  height: auto;
+  width: auto;
+}
 ul.card-panel {
   height: fit-content;
   width: fit-content;
