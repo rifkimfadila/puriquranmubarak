@@ -6,7 +6,7 @@ p.sejarah{
 }
 .silder h3,
 .slider h5 {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .kotak1 img,
@@ -41,13 +41,15 @@ p#Isi,
 p.link {
   font-size: 10px;
 }
-p#Judul-artikel {
+p#Judul-artikel,
+P#Judul-program {
   font-size: 21px;
 }
 p#Tanggal-artikel {
   font-size: 11px;
 }
-p#isi-artikel {
+p#isi-artikel,
+p#isi-program {
   font-size: 15px;
   font-family: sans-serif;
   text-align: justify;
@@ -90,3 +92,5 @@ section#Artikel .card-panel {
 p.sejarah {
   text-align: justify;
 }
+
+div#program.card-panel {align-content: center;}
